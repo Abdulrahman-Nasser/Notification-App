@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <link rel="shortcut icon" href="assets/images/favicon-32x32.png" type="image/x-icon">
+  <title>Frontend Mentor | Notifications page</title>
+  <!-- cdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  <!-- font  -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Clicker+Script&family=Jost:wght@100;300;400;500;600&family=Nanum+Gothic:wght@400;700;800&family=Plus+Jakarta+Sans:wght@200;300;400;600&family=Rajdhani:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+  <!-- font css -->
+  <link rel="stylesheet" href="assets/css/all.min.css">
+  <!-- animation css -->
+  <link rel="stylesheet" href="assets/wow/animate.min.css">
+  <!-- bootstrap css -->
+  <link rel="stylesheet" href="assets/bootstrap/bootstrap.css">
+  <!-- main css -->
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+<body>
+
+  <section class="home p-5">
+    <div class="container p-4">
+      <div class="text">
+        <div class="row ">
+          <div class="col-lg-6 animate__animated animate__heartBeat col-md-6 col-xm-6">
+            <h1 class="text-h1">Notifications <span class="" id="notificationSpan"></span> </h1>
+          </div>
+          <div class="col-lg-6 col-md-6 col-xm-6 mark-read">
+            <button href="" class="text-link animate__animated animate__fadeInRight text-center">Mark all as read</button>
+          </div>
+          <div class="col-lg-12 col-md-12 col-sm-12 p-4" id="card-parent">
+            <div class="card animate__animated animate__fadeInLeft content mb-3 mt-3">
+              <div class="row">
+                <div class="col-md-2 col-sm-2">
+                  <img src="assets/images/avatar-mark-webber.webp" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-10 col-sm-10 p-0">
+                  <div class="card-body p-0">
+                    <h3 class="card-title text-h3">
+                      Mark Webber
+                      <span class="content-span">Rected To Your Recent Post</span>
+                      <span class="tournment"><a href="#">my first tourment today !</a></span>
+                      <span class="now none">.</span>
+                      <p class="content-span">1 m ago</p>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card animate__animated animate__fadeInRight content mb-3 mt-4">
+              <div class="row">
+                <div class="col-md-2 col-sm-2">
+                  <img src="assets/images/avatar-angela-gray.webp" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-10 col-sm-10 p-0">
+                  <div class="card-body p-0">
+                    <h3 class="card-title text-h3">
+                      Angela Gray
+                      <span class="content-span">followed you</span>
+                      <span class="now none">.</span>
+                      <p class="content-span">6m ago</p>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card animate__animated animate__fadeInLeft content mb-3 mt-4">
+              <div class="row">
+                <div class="col-md-2 col-sm-2">
+                  <img src="assets/images/avatar-jacob-thompson.webp" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-10 col-sm-10 p-0 ">
+                  <div class="card-body p-0">
+                    <h3 class="card-title text-h3">
+                      Jacob Thompson
+                      <span class="content-span">has joined your group</span>
+                      <span class="chess-club"><a href="">Chess Club</a></span>
+                      <span class="now none">.</span>
+                      <p class="content-span">1 day ago</p>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card animate__animated animate__fadeInRight mb-3 mt-4">
+              <div class="row  ">
+                <div class="col-md-2 col-sm-2">
+                  <img src="assets/images/avatar-rizky-hasanuddin.webp" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-7 col-sm-10 p-0">
+                  <div class="card-body p-0">
+                    <h3 class="card-title text-h3">
+                      rizky Hasanuddin
+                      <span class="content-span">sent you a private message</span>
+                      <span class="now none">.</span>
+                      <p class="content-span">5 days ago</p>
+                    </h3>
+                  </div>
+                </div>
+                <div class="message col-md-10 m-auto mt-3 mb-3  p-4">
+                  Hello Thank You for setting up the chess club,I have been a member for a
+                  few weeks now and I am already having lots of fun and improving my game
+                </div>
+              </div>
+            </div>
+            <div class="card animate__animated animate__fadeInLeft mb-3 mt-4">
+              <div class="row">
+                <div class="col-md-2 media2">
+                  <img src="assets/images/avatar-kimberly-smith.webp" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8 media p-0">
+                  <div class="card-body p-0">
+                    <h3 class="card-title text-h3">
+                      kimperly smith
+                      <span class="content-span">Commented To Your photo</span>
+                      <span class="tournment"><a href=""></a></span>
+                      <span class="now none">.</span>
+                      <p class="content-span">1 week ago</p>
+                    </h3>
+                  </div>
+                </div>
+                <div class="col-md-2 media2">
+                  <img src="assets/images/image-chess.webp" class="img-fluid rounded-start" alt="...">
+                </div>
+              </div>
+            </div>
+            <div class="card animate__animated animate__fadeInRight mb-3 mt-3">
+              <div class="row ">
+                <div class="col-md-2 col-sm-2">
+                  <img src="assets/images/avatar-nathan-peterson.webp" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-10 col-sm-10 p-0">
+                  <div class="card-body p-0">
+                    <h3 class="card-title text-h3">
+                      Nathan Peterson
+                      <span class="content-span">Rected To Your Recent Post</span>
+                      <span class="card-text"><a href="#">5 end-game strategles to <br> increase your win rate</a></span>
+                      <span class="now none">.</span>
+                      <p class="content-span">2 weeks ago</p>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card animate__animated animate__rotateInUpLeft mb-3 mt-3">
+              <div class="row">
+                <div class="col-md-2 col-sm-2">
+                  <img src="assets/images/avatar-anna-kim.webp" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-10 col-sm-10 p-0">
+                  <div class="card-body p-0">
+                    <h3 class="card-title text-h3">
+                      Anna Kim
+                      <span class="content-span">left the group</span>
+                      <span class="chess-club"><a href="#">Chess Club</a></span>
+                      <span class="now none">.</span>
+                      <p class="content-span">2 weeks ago</p>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- jQuery -->
+  <script src="assets/jQuery/jquery-3.6.1.min.js"></script>
+  <!-- fonts js -->
+  <script src="assets/js/all.min.js"></script>
+  <!-- bootstrap js -->
+  <script src="assets/bootstrap/bootstrap.js"></script>
+  <!-- animation js -->
+  <script src="assets/wow/wow.min.js"></script>
+  <!-- main js -->
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>

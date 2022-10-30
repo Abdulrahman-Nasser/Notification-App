@@ -1,0 +1,175 @@
+
+a{
+  text-decoration: none;
+}
+img{
+  width: 70% !important;
+}
+.row{
+  flex-wrap: wrap;
+}
+
+/* ////*/
+body {
+  font-family: "Plus Jakarta Sans";
+  font-size: 16px;
+  background-image: url(../images/bg-premium-intro-1.svg);
+  font-weight: 500;
+}
+.card{
+  cursor: pointer;
+}
+.container{
+  background-color: hsl(210, 60%, 98%);
+  box-shadow: 0 0 20px hsl(205, 33%, 90%);
+}
+.text{
+  width: 65%;
+  margin: auto;
+  background-color: white;
+  padding: 10px;
+  border-radius: 7px;
+  box-shadow: 0 0 20px hsl(205, 33%, 90%);
+  padding: 20px;
+  /* justify-content: space-between; */
+}
+.text-h1{
+  font-weight: 800;
+  font-size: 30px;
+}
+.text-span{
+  background-color:hsl(219, 85%, 26%);
+  color: white;
+  padding: 7px 17px;
+  margin: 0 10px;
+  font-size: 16px;
+  border-radius: 10px;
+}
+.text-link{
+  color: hsl(219, 14%, 63%);
+  transition: all .4s;
+  border: none;
+  background-color: transparent;
+}
+.text-link:hover{
+  transform: scale(1.03);
+  color: hsl(218, 100%, 28%);
+}
+.mark-read{
+  text-align: right;
+}
+.content{
+  background-color:  hsl(200, 80%, 96%);
+  padding: 10px;
+  border-radius: 10px;
+}
+.text-h3{
+  font-size: 16px;
+  font-weight: 600;
+  transition: all .3s;
+  cursor: pointer;
+}
+.text-h3:hover{
+  color: hsl(219, 85%, 26%);
+}
+.content-span{
+  color: hsl(219, 14%, 63%);
+  font-weight: 500;
+  text-transform: lowercase;
+}
+.tournment a{
+  color: black !important;
+  text-transform: capitalize;
+  transition: all .3s;
+}
+.tournment a:hover{
+  color:  hsl(219, 85%, 26%) !important;
+}
+.card{
+  border: none;
+}
+.card-text a{
+  color: hsl(219, 85%, 26%) !important;
+  line-height: 1.5;
+}
+.chess-club a{
+  color:  hsl(218, 100%, 28%);
+}
+.message{
+  box-shadow: 0 0 20px hsl(205, 33%, 90%);
+  position: relative;
+  left: 50px;
+}
+.now{
+  color: red;
+  background-color: red;
+  font-size: 10px;
+  padding: 0 3px;
+  border-radius: 100%;
+}
+.none{
+  display: none;
+}
+/*/////////////////////////////////// responsive ///////////////////////////////*/
+
+@media screen  and (max-width:768px){
+  .text-h1{
+    font-size: 18px;
+  }
+  .text-span{
+    padding: 5px 13px;
+  }
+  .message{
+    left: 20px;
+  }
+}
+@media screen and (max-width:600px) {
+  .home{
+    padding: 0 !important;
+  }
+  .container{
+    background-color: transparent;
+  }
+  body{
+    background-image: none;
+  }
+  .text{
+    width: 100%;
+    box-shadow: 0 0 0 transparent;
+  }
+  .col-sm-2{
+    width: 20%;
+  }
+  .col-sm-10{
+    width: 80%;
+  }
+  img{
+    width: 100% !important;
+  }
+  .text-h3{
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  .media{
+    width: 60%;
+  }
+  .media2{
+    width: 20%;
+  }
+  .col-xm-6{
+    width: 50%;
+  }
+  .text-span{
+    padding: 3px 11px !important;
+    font-size: 14px;
+  }
+  .text-h1{
+    font-size: 15px !important;
+  }
+  .col-sm-12{
+    padding: 0 !important;
+  }
+  .message{
+    left: 8px;
+  }
+}
